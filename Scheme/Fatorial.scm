@@ -2,4 +2,4 @@
               (cond ((= n 0)  1) ; caso base n = 0
                     (else (* n (fatorial (- n 1))))))
 
-(fatorial 8) ; exemplo
+(display (fatorial 8)) ; exemplo
